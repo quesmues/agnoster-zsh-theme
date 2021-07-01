@@ -76,12 +76,6 @@ customize_agnoster() {
 ```
 ![Customization demo](https://github.com/apodkutin/agnoster-zsh-theme/raw/customize-prompt/agnoster_customization.gif)
 
-## Future Work
+## Add Conda and Node version compatibility (01/06/2021)
 
-I don't want to clutter it up too much, but I am toying with the idea of adding RVM (ruby version) and n (node.js version) display.
-
-It's currently hideously slow, especially inside a git repo. I guess it's not overly so for comparable themes, but it bugs me, and I'd love to hear ideas about how to improve the performance.
-
-Would be nice for the code to be a bit more sane and re-usable. Something to easily append a section with a given FG/BG, and add the correct opening and closing.
-
-Also the dependency on a powerline-patched font is regrettable, but there's really no way to get that effect without it. Ideally there would be a way to check for compatibility, or maybe even fall back to one of the similar unicode glyphs.
+I forked and add the conda and node version for my purposes.
